@@ -1,0 +1,25 @@
+{
+  "name": "Euchre",
+  "version": "1.0.0",
+  "description": "Multiplayer euchre card game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpk1215/Euchre"
+  },
+  "keywords": [
+    "euchre",
+    "cards",
+    "game",
+    "multiplayer"
+  ],
+  "author": "Jeffrey Klaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpk1215/Euchre/issues"
+  },
+  "homepage": "https://github.com/jpk1215/Euchre"
+}
