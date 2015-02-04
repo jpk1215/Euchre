@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/bower_components/angular-playing-cards/angular-playing-cards.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+	</head>
+	<body ng-app="euchreApp">
+		<div ng-controller="MainCtrl">
+			<div>
+				<playing-card rank="king" suit="spade" />
+			</div>
+			<div>
+				<playing-card rank="ace" suit="diamond" />
+			</div>
+			<div>
+				<playing-card rank="ace" suit="spade" />
+			</div>
+			<button ng-click="deal()">DEAL</button>
+		</div>
+		<script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script type="text/javascript" src="/bower_components/angular-playing-cards/angular-playing-cards.js"></script>
+		<script type="text/javascript" src="/javascripts/client.js"></script>
+	</body>
+</html>
