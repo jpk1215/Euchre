@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/jpk1215/Euchre",
   "dependencies": {
-    "cards": "^0.1.1",
     "express": "^4.11.2",
     "mongoose": "^3.8.22",
     "morgan": "^1.5.1"
