@@ -1,0 +1,20 @@
+{
+  "name": "Euchre",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jpk1215/Euchre",
+  "authors": [
+    "Jeffrey Klaus <jpk1215@gmail.com>"
+  ],
+  "description": "Multiplayer euchre game",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-playing-cards": "*"
+  }
+}
